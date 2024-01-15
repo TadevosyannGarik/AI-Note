@@ -8,6 +8,7 @@ export const metadata: Metadata = {
 export default function NotePage() {
     return (
         <div>
+            
             Here will be notes !
         </div>
     )
