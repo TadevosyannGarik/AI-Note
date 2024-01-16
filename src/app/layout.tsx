@@ -18,7 +18,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ClerkProvider>
             <html lang="en">
                 <body  className={cn('antialiased grainy', inter.className)}>
-                    <Toaster />
                     {children}
                 </body>
             </html>
