@@ -36,7 +36,7 @@ export default async function NotePage() {
                 <Note note={note} key={note.id} />
             ))}
             {allNotes.length === 0 && (
-                <div className="col-span-full text-center pt-40 text-xl">
+                <div className="col-span-full text-center p-10 text-xl bg-white/55 border rounded-lg border-gray-200">
                     {"You don't have any notes yet. Why don't you create one?"}
                 </div>
             )}
