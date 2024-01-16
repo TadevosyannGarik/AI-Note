@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { ClerkProvider } from "@clerk/nextjs";
 import { cn } from '@/lib/utils';
-
+import { Toaster } from '@/components/ui/sonner'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ClerkProvider>
             <html lang="en">
                 <body  className={cn('antialiased grainy', inter.className)}>
+                    <Toaster />
                     {children}
                 </body>
             </html>

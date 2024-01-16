@@ -8,6 +8,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useState } from "react";
 import AddNoteDialog from "@/components/add-edit-note-dialog";
+import { Code2 } from 'lucide-react';
 
 
 export default function NavBar() {
@@ -24,6 +25,13 @@ export default function NavBar() {
                             Note
                         </span>
                     </Link>
+                    <div className="text-center">
+                        <Link href="https://github.com/TadevosyannGarik/AI-Note" target="_blank">
+                            <Button variant="outline">
+                                <Code2 />
+                            </Button>
+                        </Link>
+                    </div>
                     <div className="flex items-center gap-2">
                         <UserButton
                             afterSignOutUrl="/"
