@@ -9,10 +9,10 @@ import Link from "next/link";
 import { useState } from "react";
 import AddNoteDialog from "@/components/add-edit-note-dialog";
 import { Code2 } from 'lucide-react';
+import AIChatButton from "@/components/ai-chat-button";
 
 
 export default function NavBar() {
-
     const [showAddEditNoteDialog, setShowAddEditNoteDialog] = useState(false);
 
     return (
@@ -43,6 +43,7 @@ export default function NavBar() {
                             <Plus size={20} className="mr-2" />
                             Add Note
                         </Button>
+                        <AIChatButton />
                     </div>
                 </div>
             </div>
