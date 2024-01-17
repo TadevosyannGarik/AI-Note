@@ -23,7 +23,6 @@ export default function Home() {
                         }}
                         className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[50rem] h-[29.375rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[100rem] sm:h-[58.75rem]'
                     />
-
                 </div>
                 <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
                     Chat with your{' '}
@@ -33,6 +32,8 @@ export default function Home() {
                     in seconds.
                 </h1>
                 <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
+                    Note AI allows you to have conversations with your notes. 
+                    Simply create notes and start asking questions right away.
                     An intelligent note-taking app with AI integration, built with OpenAI,
                     Pinecone, Next.js, Shadcn UI, Clerk, and more.
                 </p>

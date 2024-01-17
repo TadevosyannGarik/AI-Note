@@ -22,7 +22,7 @@ export default function NavBar() {
                     <Link href="/notes" className="flex items-center gap-1">
                         <BrainCircuit className="w-10 h-10" />
                         <span className="font-bold">
-                            Note
+                            Note AI
                         </span>
                     </Link>
                     <div className="text-center">
